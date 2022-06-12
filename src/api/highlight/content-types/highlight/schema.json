@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "highlights",
   "info": {
-    "singularName": "product",
-    "pluralName": "products",
-    "displayName": "product",
+    "singularName": "highlight",
+    "pluralName": "highlights",
+    "displayName": "highlight",
     "description": ""
   },
   "options": {
@@ -12,19 +12,10 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "name": {
-      "type": "string"
-    },
-    "shortDescription": {
+    "description": {
       "type": "text"
     },
-    "price": {
-      "type": "float"
-    },
-    "quantity": {
-      "type": "integer"
-    },
-    "productImage": {
+    "bannerImg": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -34,6 +25,12 @@
         "videos",
         "audios"
       ]
+    },
+    "position": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
