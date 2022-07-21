@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_votes_votes",
+  "info": {
+    "displayName": "votes",
+    "icon": "arrows-alt"
+  },
+  "options": {},
+  "attributes": {
+    "rating": {
+      "type": "integer"
+    },
+    "comment": {
+      "type": "text"
+    }
+  }
+}
